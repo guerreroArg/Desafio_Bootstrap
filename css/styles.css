@@ -1,0 +1,81 @@
+.altura1 {
+    height: 30vh;
+}
+
+.altura2 {
+    height: 55vh;
+}
+
+.altura3 {
+    height: 15vh;
+}
+
+.logo {
+    margin: 2px;
+    padding: 10px;
+    height: 180px;
+}
+
+.llegada {
+    height: 267px;
+    margin: 9px;
+}
+
+.p {
+    font-size: 20PX;
+    color: white;
+    margin: 20px;
+    display: flex;
+
+}
+
+.colHead {
+    background-color: rgb(78, 51, 58);
+}
+
+.colMain {
+    background-color: rgb(212, 214, 185);
+}
+
+.colBar {
+    background-color: rgb(114, 113, 107);
+}
+
+.colFoot {
+    background-color: rgb(56, 59, 83);
+}
+
+.vid1 {
+    display: flex;
+    align-items: center;
+    padding: 11px;
+}
+.vid2{
+    display: flex;
+    align-items: center;
+    padding: 0px;
+    margin: 35px;
+}
+
+.acc {
+    margin: 22px;
+    padding: 14px;
+}
+
+.bic {
+    margin: 22px;
+    padding: 14px;
+}
+.menuFooter li a {
+    color: rgb(2, 1, 1);
+    margin: 10px;
+    text-decoration: none;
+    display: inline-block;
+    padding: 6px;
+  
+  }
+  
+  .menuFooter li:hover {
+    box-shadow: 3px 3px rgb(39, 32, 18);
+  }
+  
