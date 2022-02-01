@@ -131,37 +131,3 @@ p {
   font-size: 25px;
 }
 
-@media (min-width: 768px){
-
-.row {
-  flex-direction: columns;
-}
-.altura1 {
-  height: 20vh;
-}
-
-.altura2 {
-  height: 35vh;
-}
-
-.altura3 {
-  height: 7vh;
-}
-.logo {
-  margin: 2px;
-  padding: 10px;
-  height: 180px;
-  z-index: -3;
-}
-
-.llegada {
-  height: 267px;
-  margin: 9px;
-}
-
-.vi2 {
-  width: 200px;
-  height: 300px;
-  justify-content: end;
-}
-} 
