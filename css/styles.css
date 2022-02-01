@@ -1,81 +1,167 @@
 .altura1 {
-    height: 30vh;
+  height: 30vh;
 }
 
 .altura2 {
-    height: 55vh;
+  height: 55vh;
 }
 
 .altura3 {
-    height: 15vh;
+  height: 15vh;
 }
 
 .logo {
-    margin: 2px;
-    padding: 10px;
-    height: 180px;
+  margin: 2px;
+  padding: 10px;
+  height: 180px;
+  z-index: -3;
 }
 
 .llegada {
-    height: 267px;
-    margin: 9px;
+  height: 267px;
+  margin: 9px;
 }
 
 .p {
-    font-size: 20PX;
-    color: white;
-    margin: 20px;
-    display: flex;
-
+  font-size: 20px;
+  color: white;
+  margin: 20px;
+  display: flex;
+  z-index: -3;
 }
 
 .colHead {
-    background-color: rgb(78, 51, 58);
+  background-color: rgb(78, 51, 58);
 }
 
 .colMain {
-    background-color: rgb(212, 214, 185);
+  background-color: rgb(212, 214, 185);
 }
 
 .colBar {
-    background-color: rgb(114, 113, 107);
+  background-color: rgb(114, 113, 107);
 }
 
 .colFoot {
-    background-color: rgb(56, 59, 83);
+  background-color: rgb(56, 59, 83);
 }
 
 .vid1 {
-    display: flex;
-    align-items: center;
-    padding: 11px;
+  display: flex;
+  align-items: center;
+  padding: 11px;
 }
-.vid2{
-    display: flex;
-    align-items: center;
-    padding: 0px;
-    margin: 35px;
+
+.vid2 {
+  display: flex;
+  align-items: center;
+  padding: 0px;
+  margin: 35px;
 }
 
 .acc {
-    margin: 22px;
-    padding: 14px;
+  margin: 22px;
+  padding: 14px;
 }
 
 .bic {
-    margin: 22px;
-    padding: 14px;
+  margin: 22px;
+  padding: 14px;
 }
+
+.footerSocial a {
+  text-align: center;
+  color: rgb(2, 2, 2);
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  margin: 6px;
+  transition: transform 0.5s;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  font-size: 2rem;
+}
+
+.footerSocial a:hover {
+  transform: scale(1.2);
+  text-align: center;
+}
+
+.footerText {
+  font-stretch: condensed;
+  text-align: center;
+  color: thistle;
+}
+
 .menuFooter li a {
-    color: rgb(2, 1, 1);
-    margin: 10px;
-    text-decoration: none;
-    display: inline-block;
-    padding: 6px;
-  
-  }
-  
-  .menuFooter li:hover {
-    box-shadow: 3px 3px rgb(39, 32, 18);
-  }
-  
+  color: rgb(2, 1, 1);
+  margin: 10px;
+  text-decoration: none;
+  display: inline-block;
+  padding: 6px;
+}
+
+.menuFooter li:hover {
+  background-color: rgb(209, 202, 177);
+  box-shadow: 3px 3px rgb(39, 32, 18);
+}
+
+.bic {
+  grid-row: auto;
+  justify-content: space-around;
+  width: 350px;
+  height: 350px;
+}
+.vid2 {
+  width: 300px;
+  height: 400px;
+}
+.map {
+  display: inline-flex;
+  justify-content: space-around;
+}
+.bottom {
+  background-color: rgb(187, 177, 141);
+}
+h5 {
+  color: thistle;
+}
+p {
+  margin: 20px;
+  font-size: 25px;
+}
+
+@media (min-width: 768px){
+
+.row {
+  flex-direction: columns;
+}
+.altura1 {
+  height: 20vh;
+}
+
+.altura2 {
+  height: 35vh;
+}
+
+.altura3 {
+  height: 7vh;
+}
+.logo {
+  margin: 2px;
+  padding: 10px;
+  height: 180px;
+  z-index: -3;
+}
+
+.llegada {
+  height: 267px;
+  margin: 9px;
+}
+
+.vi2 {
+  width: 200px;
+  height: 300px;
+  justify-content: end;
+}
+} 
