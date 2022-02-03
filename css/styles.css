@@ -1,3 +1,9 @@
+*{
+  padding: 0;
+  margin: 0;
+box-sizing: border-box;
+}
+
 .altura1 {
   height: 30vh;
 }
@@ -14,12 +20,12 @@
   margin: 2px;
   padding: 10px;
   height: 180px;
-  z-index: -3;
-}
+  }
 
 .llegada {
-  height: 267px;
-  margin: 9px;
+  height: 179px;
+  margin: 8px;
+  z-index: 2;
 }
 
 .p {
@@ -27,8 +33,8 @@
   color: white;
   margin: 20px;
   display: flex;
-  z-index: -3;
-}
+  justify-content: right;
+  }
 
 .colHead {
   background-color: rgb(78, 51, 58);
@@ -129,5 +135,13 @@ h5 {
 p {
   margin: 20px;
   font-size: 25px;
+}
+@media (max-whidth: 992px){
+
+.llegada{
+  display: none;
+  
+}
+
 }
 
